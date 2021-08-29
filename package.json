@@ -1,0 +1,31 @@
+{
+  "name": "@huxy/copy-file-webpack-plugin",
+  "version": "0.0.1",
+  "title": "copy-file-webpack-plugin",
+  "feature": "0.0.1",
+  "hooks": "0.0.1",
+  "description": "webpack copy-file-webpack-plugin",
+  "homepage": "https://github.com/ahyiru/copy-file-webpack-plugin",
+  "keywords": [
+    "webpack",
+    "ihuxy",
+    "plugin",
+    "copy file"
+  ],
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "node server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ahyiru/copy-file-webpack-plugin"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "fs-extra": "^10.0.0"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "author": "yiru"
+}
