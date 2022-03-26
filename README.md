@@ -14,4 +14,4 @@ new CopyFileWebpackPlugin([{from:'../public/src',to:'../app/build/src'}]),
 
 ```
 
-配置参数见 [open](https://www.npmjs.com/package/fs-extra)。
+配置参数见 [fs-extra](https://www.npmjs.com/package/fs-extra)。
