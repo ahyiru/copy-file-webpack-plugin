@@ -7,11 +7,11 @@
 
 webpack 构建完拷贝文件插件。
 
-```js
+```javascript
 const CopyFileWebpackPlugin = require('@huxy/copy-file-webpack-plugin');
 
-new CopyFileWebpackPlugin([{from:'../public/src',to:'../app/build/src'}]),
+new CopyFileWebpackPlugin([{from: '../public/src', to: '../app/build/src'}]),
 
 ```
 
-配置参数见 [fs-extra](https://www.npmjs.com/package/fs-extra)。
+配置参数见 [fs-extra](https://www.npmjs.com/package/fs-extra) 。
