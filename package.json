@@ -1,6 +1,6 @@
 {
   "name": "@huxy/copy-file-webpack-plugin",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "title": "copy-file-webpack-plugin",
   "feature": "0.0.1",
   "hooks": "0.0.1",
@@ -11,7 +11,12 @@
     "copyfile",
     "plugin"
   ],
-  "main": "lib/index.js",
+  "sideEffects": false,
+  "main": "./lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./package.json": "./package.json"
+  },
   "scripts": {
     "start": "node server"
   },
@@ -21,7 +26,7 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "fs-extra": "^10.0.0"
+    "fs-extra": "^11.1.0"
   },
   "directories": {
     "lib": "lib"
