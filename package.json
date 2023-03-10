@@ -1,9 +1,10 @@
 {
   "name": "@huxy/copy-file-webpack-plugin",
-  "version": "0.6.1",
+  "version": "1.0.0",
   "title": "copy-file-webpack-plugin",
   "feature": "0.0.1",
   "hooks": "0.0.1",
+  "type": "module",
   "description": "webpack copy file plugin",
   "homepage": "https://github.com/ahyiru/copy-file-webpack-plugin",
   "keywords": [
