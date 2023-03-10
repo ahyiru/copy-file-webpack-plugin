@@ -8,7 +8,7 @@
 webpack 构建完拷贝文件插件。
 
 ```javascript
-const CopyFileWebpackPlugin = require('@huxy/copy-file-webpack-plugin');
+import CopyFileWebpackPlugin from '@huxy/copy-file-webpack-plugin';
 
 new CopyFileWebpackPlugin([{from: '../public/src', to: '../app/build/src'}]),
 
