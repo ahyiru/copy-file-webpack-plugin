@@ -9,7 +9,7 @@
   "homepage": "https://github.com/ahyiru/copy-file-webpack-plugin",
   "keywords": [
     "webpack",
-    "copyfile",
+    "copy file",
     "plugin"
   ],
   "sideEffects": false,
